@@ -23,8 +23,7 @@
     "lint": "eslint 'src/**/*.ts'"
   },
   "dependencies": {
-    "node-fetch": "^2",
-    "tika-server-client": "^0.0.3"
+    "node-fetch": "^2"
   },
   "devDependencies": {
     "@swc-node/register": "^1.6.8",
