@@ -17,7 +17,7 @@
   },
   "scripts": {
     "clean": "rimraf build",
-    "build": "tsc -b",
+    "build": "tsc -project tsconfig.build.json",
     "prepack": "yarn clean && yarn build",
     "test": "node -r @swc-node/register src/test.ts",
     "lint": "eslint 'src/**/*.ts'"
