@@ -1,0 +1,7 @@
+.vscode/
+src/
+data/
+tsconfig.json
+.swcrc
+.eslintrc
+.eslintignore
